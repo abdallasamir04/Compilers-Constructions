@@ -1,5 +1,6 @@
-# ⚙️ Compilers Constructions Project: Scanner & Process Stages
+# ![Compilers Project Background](https://github.com/abdallasamir04/your-repo-name/blob/main/path-to-image/A_sleek_and_modern_background_image_for_a_compiler.png)
 
+# ⚙️ Compilers Constructions Project: Scanner & Process Stages
 ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg?style=for-the-badge&logo=github&logoColor=white)
 ![C#](https://img.shields.io/badge/Language-C%23-0078d4.svg?style=for-the-badge&logo=csharp&logoColor=white)
 
