@@ -1,12 +1,11 @@
-# ⚙️ ![Compilers Project Background](https://github.com/abdallasamir04/your-repo-name/blob/main/images/DALL·E%202025-03-18%2012.25.00%20-%20A%20sleek%20and%20modern%20background%20image%20for%20a%20compiler%20project%2C%20featuring%20a%20combination%20of%20gears%2C%20computer%20code%2C%20and%20abstract%20shapes%20representing%20technolo.png)
-
+# 🖥️ Compilers Constructions Project: Scanner & Process Stages
 ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg?style=for-the-badge&logo=github&logoColor=white)
 ![C#](https://img.shields.io/badge/Language-C%23-0078d4.svg?style=for-the-badge&logo=csharp&logoColor=white)
 
 
 The **Scanner and Process Stages** project is a part of the **Compilers Constructions Project** course.  
 This project simulates the development of a **compiler's lexical analysis** stage, focusing on **scanner functionality**. It processes and validates **identifiers** while checking if they are reserved words, and sets the foundation for future compiler stages.  
-Developed by **_Abdalla Mahmoud Samir_** as part of the **Compilers Constructions Project** course at **Assiut National University**.
+Developed by **_Abdalla Samir_** as part of the **Compilers Constructions Project** course at **Assiut National University**.
 
 ---
 
