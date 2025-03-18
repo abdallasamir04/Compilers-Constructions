@@ -1,7 +1,8 @@
 # 🖥️ Compilers Constructions Project: Scanner & Process Stages
 
-![Version](https://img.shields.io/badge/version-1.0.0-green.svg)
-![C#](https://img.shields.io/badge/Language-C%23-purple.svg)
+![Version](https://img.shields.io/badge/version-1.0.0-blue.svg?style=for-the-badge&logo=github&logoColor=white)
+![C#](https://img.shields.io/badge/Language-C%23-0078d4.svg?style=for-the-badge&logo=csharp&logoColor=white)
+
 
 The **Scanner and Process Stages** project is a part of the **Compilers Constructions Project** course.  
 This project simulates the development of a **compiler's lexical analysis** stage, focusing on **scanner functionality**. It processes and validates **identifiers** while checking if they are reserved words, and sets the foundation for future compiler stages.  
