@@ -96,5 +96,4 @@ Let's connect! Feel free to reach out or follow me on these platforms:
 **Abdalla Samir**  
 **Faculty of Computers and Artificial Intelligence**  
 **Assiut National University**  
-**Compilers Constructions Project Course**  
-**Operating Systems Course (CS321) - Third Level**
+**Compilers Constructions Project Course - Third Level**
