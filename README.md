@@ -5,7 +5,7 @@
 
 The **Scanner and Process Stages** project is a part of the **Compilers Constructions Project** course.  
 This project simulates the development of a **compiler's lexical analysis** stage, focusing on **scanner functionality**. It processes and validates **identifiers** while checking if they are reserved words, and sets the foundation for future compiler stages.  
-Developed by **_Abdalla Samir_** as part of the **Compilers Constructions Project** course at **Assiut National University**.
+Developed by **_Abdalla Mahmoud Samir_** as part of the **Compilers Constructions Project** course at **Assiut National University**.
 
 ---
 
@@ -71,9 +71,12 @@ The following commands are part of the **scanner** system to handle user inputs:
 
 ## 📚 Future Stages
 
-### Process Stage
-- This project will evolve into the **compiler process** stage in the future.
-- It will include **syntax analysis**, **semantic analysis**, and other components.
+### Lexical Analysis
+- This project simulates the **lexical analysis** stage of a compiler.
+- It involves **scanning** and **tokenizing** input, checking for valid identifiers, and flagging reserved words.
+
+### Next Compiler Stages
+- The project will evolve into the next stages of a compiler, including **syntax analysis**, **semantic analysis**, and other components.
 
 ---
 
@@ -93,7 +96,7 @@ Let's connect! Feel free to reach out or follow me on these platforms:
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:samirovic707@gmail.com)  
 [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/abdallasamir04)  
 ---
-**Abdalla Samir**  
+**Abdalla Mahmoud Samir**  
 **Faculty of Computers and Artificial Intelligence**  
 **Assiut National University**  
 **Compilers Constructions Project Course - Third Level**
