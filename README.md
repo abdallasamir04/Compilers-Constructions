@@ -1,4 +1,4 @@
-![Scanner Banner](./banner.png)
+![Scanner Banner](Scanner/banner.png)
 
 # ⚙️ Scanner - Compilers Constructions Project (./banner.png)
 ![Version](https://img.shields.io/badge/version-2.0.0-blue.svg?style=for-the-badge&logo=github&logoColor=white)
