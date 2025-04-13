@@ -1,5 +1,5 @@
 
-# ⚙️ Scanner - Compilers Constructions Project
+# ⚙️ Scanner - Compilers Constructions Project (./banner.png)
 ![Version](https://img.shields.io/badge/version-2.0.0-blue.svg?style=for-the-badge&logo=github&logoColor=white)
 ![C#](https://img.shields.io/badge/Language-C%23-0078d4.svg?style=for-the-badge&logo=csharp&logoColor=white)
 
