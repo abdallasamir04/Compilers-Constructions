@@ -2,7 +2,6 @@
 # ⚙️ Scanner - Lexical Analysis Stage - Compilers Constructions Project
 ![Version](https://img.shields.io/badge/version-2.0.0-blue.svg?style=for-the-badge&logo=github&logoColor=white)
 ![C#](https://img.shields.io/badge/Language-C%23-0078d4.svg?style=for-the-badge&logo=csharp&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)
 
 The **Scanner** project simulates the **lexical analysis stage** of a compiler. It reads source code (from file or manually), scans line by line, tokenizes the code into syntactic components, detects Arabic characters as lexical errors, and visually displays results in a colored console with line and column tracking.
 
