@@ -1,14 +1,29 @@
-E:\3rd Level\2nd Semester\Compilers Construction\Sections\Copmilers\bin\Debug\net8.0\Copmilers.exe
-E:\3rd Level\2nd Semester\Compilers Construction\Sections\Copmilers\bin\Debug\net8.0\Copmilers.deps.json
-E:\3rd Level\2nd Semester\Compilers Construction\Sections\Copmilers\bin\Debug\net8.0\Copmilers.runtimeconfig.json
-E:\3rd Level\2nd Semester\Compilers Construction\Sections\Copmilers\bin\Debug\net8.0\Copmilers.dll
-E:\3rd Level\2nd Semester\Compilers Construction\Sections\Copmilers\bin\Debug\net8.0\Copmilers.pdb
-E:\3rd Level\2nd Semester\Compilers Construction\Sections\Copmilers\obj\Debug\net8.0\Copmilers.GeneratedMSBuildEditorConfig.editorconfig
-E:\3rd Level\2nd Semester\Compilers Construction\Sections\Copmilers\obj\Debug\net8.0\Copmilers.AssemblyInfoInputs.cache
-E:\3rd Level\2nd Semester\Compilers Construction\Sections\Copmilers\obj\Debug\net8.0\Copmilers.AssemblyInfo.cs
-E:\3rd Level\2nd Semester\Compilers Construction\Sections\Copmilers\obj\Debug\net8.0\Copmilers.csproj.CoreCompileInputs.cache
-E:\3rd Level\2nd Semester\Compilers Construction\Sections\Copmilers\obj\Debug\net8.0\Copmilers.dll
-E:\3rd Level\2nd Semester\Compilers Construction\Sections\Copmilers\obj\Debug\net8.0\refint\Copmilers.dll
-E:\3rd Level\2nd Semester\Compilers Construction\Sections\Copmilers\obj\Debug\net8.0\Copmilers.pdb
-E:\3rd Level\2nd Semester\Compilers Construction\Sections\Copmilers\obj\Debug\net8.0\Copmilers.genruntimeconfig.cache
-E:\3rd Level\2nd Semester\Compilers Construction\Sections\Copmilers\obj\Debug\net8.0\ref\Copmilers.dll
+E:/3rd Level/2nd Semester/Compilers Construction/Sections/Copmilers/bin/Debug/net8.0/Copmilers.exe
+E:/3rd Level/2nd Semester/Compilers Construction/Sections/Copmilers/bin/Debug/net8.0/Copmilers.deps.json
+E:/3rd Level/2nd Semester/Compilers Construction/Sections/Copmilers/bin/Debug/net8.0/Copmilers.runtimeconfig.json
+E:/3rd Level/2nd Semester/Compilers Construction/Sections/Copmilers/bin/Debug/net8.0/Copmilers.dll
+E:/3rd Level/2nd Semester/Compilers Construction/Sections/Copmilers/bin/Debug/net8.0/Copmilers.pdb
+E:/3rd Level/2nd Semester/Compilers Construction/Sections/Copmilers/obj/Debug/net8.0/Copmilers.GeneratedMSBuildEditorConfig.editorconfig
+E:/3rd Level/2nd Semester/Compilers Construction/Sections/Copmilers/obj/Debug/net8.0/Copmilers.AssemblyInfoInputs.cache
+E:/3rd Level/2nd Semester/Compilers Construction/Sections/Copmilers/obj/Debug/net8.0/Copmilers.AssemblyInfo.cs
+E:/3rd Level/2nd Semester/Compilers Construction/Sections/Copmilers/obj/Debug/net8.0/Copmilers.csproj.CoreCompileInputs.cache
+E:/3rd Level/2nd Semester/Compilers Construction/Sections/Copmilers/obj/Debug/net8.0/Copmilers.dll
+E:/3rd Level/2nd Semester/Compilers Construction/Sections/Copmilers/obj/Debug/net8.0/refint/Copmilers.dll
+E:/3rd Level/2nd Semester/Compilers Construction/Sections/Copmilers/obj/Debug/net8.0/Copmilers.pdb
+E:/3rd Level/2nd Semester/Compilers Construction/Sections/Copmilers/obj/Debug/net8.0/Copmilers.genruntimeconfig.cache
+E:/3rd Level/2nd Semester/Compilers Construction/Sections/Copmilers/obj/Debug/net8.0/ref/Copmilers.dll
+/home/ahmed/MyProjects/Compilers-Constructions/Scanner/bin/Debug/net8.0/Copmilers
+/home/ahmed/MyProjects/Compilers-Constructions/Scanner/bin/Debug/net8.0/Copmilers.deps.json
+/home/ahmed/MyProjects/Compilers-Constructions/Scanner/bin/Debug/net8.0/Copmilers.runtimeconfig.json
+/home/ahmed/MyProjects/Compilers-Constructions/Scanner/bin/Debug/net8.0/Copmilers.dll
+/home/ahmed/MyProjects/Compilers-Constructions/Scanner/bin/Debug/net8.0/Copmilers.pdb
+/home/ahmed/MyProjects/Compilers-Constructions/Scanner/obj/Debug/net8.0/Copmilers.GeneratedMSBuildEditorConfig.editorconfig
+/home/ahmed/MyProjects/Compilers-Constructions/Scanner/obj/Debug/net8.0/Copmilers.AssemblyInfoInputs.cache
+/home/ahmed/MyProjects/Compilers-Constructions/Scanner/obj/Debug/net8.0/Copmilers.AssemblyInfo.cs
+/home/ahmed/MyProjects/Compilers-Constructions/Scanner/obj/Debug/net8.0/Copmilers.csproj.CoreCompileInputs.cache
+/home/ahmed/MyProjects/Compilers-Constructions/Scanner/obj/Debug/net8.0/Copmilers.sourcelink.json
+/home/ahmed/MyProjects/Compilers-Constructions/Scanner/obj/Debug/net8.0/Copmilers.dll
+/home/ahmed/MyProjects/Compilers-Constructions/Scanner/obj/Debug/net8.0/refint/Copmilers.dll
+/home/ahmed/MyProjects/Compilers-Constructions/Scanner/obj/Debug/net8.0/Copmilers.pdb
+/home/ahmed/MyProjects/Compilers-Constructions/Scanner/obj/Debug/net8.0/Copmilers.genruntimeconfig.cache
+/home/ahmed/MyProjects/Compilers-Constructions/Scanner/obj/Debug/net8.0/ref/Copmilers.dll

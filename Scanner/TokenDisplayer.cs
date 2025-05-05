@@ -54,21 +54,14 @@ namespace Copmilers
         {
             switch (type)
             {
-                case TokenType.Identifier:
+                case TokenType.ID:
                     Console.ForegroundColor = ConsoleColor.Cyan; break;
                 case TokenType.ReservedWord:
                     Console.ForegroundColor = ConsoleColor.Magenta; break;
                 case TokenType.Number:
-                case TokenType.BooleanLiteral:
-                    Console.ForegroundColor = ConsoleColor.Green; break;
                 case TokenType.StringLiteral:
-                case TokenType.CharLiteral:
-                    Console.ForegroundColor = ConsoleColor.Yellow; break;
-                case TokenType.Comment:
-                    Console.ForegroundColor = ConsoleColor.DarkGray; break;
                 case TokenType.Error:
                 case TokenType.Unknown:
-                case TokenType.UnclosedComment:
                 case TokenType.UnterminatedString:
                 case TokenType.UnterminatedChar:
                     Console.ForegroundColor = ConsoleColor.Red; break;
