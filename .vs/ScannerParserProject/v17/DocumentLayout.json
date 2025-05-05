@@ -1,0 +1,138 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\3rd Level\\2nd Semester\\Compilers Construction\\Sections\\ScannerParserProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{250CE685-1E8B-4526-B73A-E3300F1B91D5}|ScannerParserProject.csproj|e:\\3rd level\\2nd semester\\compilers construction\\sections\\scannerparserproject\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{250CE685-1E8B-4526-B73A-E3300F1B91D5}|ScannerParserProject.csproj|solutionrelative:token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{250CE685-1E8B-4526-B73A-E3300F1B91D5}|ScannerParserProject.csproj|e:\\3rd level\\2nd semester\\compilers construction\\sections\\scannerparserproject\\scanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{250CE685-1E8B-4526-B73A-E3300F1B91D5}|ScannerParserProject.csproj|solutionrelative:scanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{250CE685-1E8B-4526-B73A-E3300F1B91D5}|ScannerParserProject.csproj|e:\\3rd level\\2nd semester\\compilers construction\\sections\\scannerparserproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{250CE685-1E8B-4526-B73A-E3300F1B91D5}|ScannerParserProject.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{250CE685-1E8B-4526-B73A-E3300F1B91D5}|ScannerParserProject.csproj|E:\\3rd Level\\2nd Semester\\Compilers Construction\\Sections\\ScannerParserProject\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{250CE685-1E8B-4526-B73A-E3300F1B91D5}|ScannerParserProject.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{250CE685-1E8B-4526-B73A-E3300F1B91D5}|ScannerParserProject.csproj|e:\\3rd level\\2nd semester\\compilers construction\\sections\\scannerparserproject\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{250CE685-1E8B-4526-B73A-E3300F1B91D5}|ScannerParserProject.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{250CE685-1E8B-4526-B73A-E3300F1B91D5}|ScannerParserProject.csproj|e:\\3rd level\\2nd semester\\compilers construction\\sections\\scannerparserproject\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{250CE685-1E8B-4526-B73A-E3300F1B91D5}|ScannerParserProject.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{250CE685-1E8B-4526-B73A-E3300F1B91D5}|ScannerParserProject.csproj|e:\\3rd level\\2nd semester\\compilers construction\\sections\\scannerparserproject\\parser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{250CE685-1E8B-4526-B73A-E3300F1B91D5}|ScannerParserProject.csproj|solutionrelative:parser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Parser.cs",
+              "DocumentMoniker": "E:\\3rd Level\\2nd Semester\\Compilers Construction\\Sections\\ScannerParserProject\\Parser.cs",
+              "RelativeDocumentMoniker": "Parser.cs",
+              "ToolTip": "E:\\3rd Level\\2nd Semester\\Compilers Construction\\Sections\\ScannerParserProject\\Parser.cs",
+              "RelativeToolTip": "Parser.cs",
+              "ViewState": "AgIAAPICAAAAAAAAAAAkwP4CAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T10:44:35.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Scanner.cs",
+              "DocumentMoniker": "E:\\3rd Level\\2nd Semester\\Compilers Construction\\Sections\\ScannerParserProject\\Scanner.cs",
+              "RelativeDocumentMoniker": "Scanner.cs",
+              "ToolTip": "E:\\3rd Level\\2nd Semester\\Compilers Construction\\Sections\\ScannerParserProject\\Scanner.cs",
+              "RelativeToolTip": "Scanner.cs",
+              "ViewState": "AgIAAKQAAAAAAAAAAAAUwL8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T10:43:57.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Token.cs",
+              "DocumentMoniker": "E:\\3rd Level\\2nd Semester\\Compilers Construction\\Sections\\ScannerParserProject\\Token.cs",
+              "RelativeDocumentMoniker": "Token.cs",
+              "ToolTip": "E:\\3rd Level\\2nd Semester\\Compilers Construction\\Sections\\ScannerParserProject\\Token.cs",
+              "RelativeToolTip": "Token.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAUwBoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T10:43:06.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\3rd Level\\2nd Semester\\Compilers Construction\\Sections\\ScannerParserProject\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\3rd Level\\2nd Semester\\Compilers Construction\\Sections\\ScannerParserProject\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T10:42:40.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "E:\\3rd Level\\2nd Semester\\Compilers Construction\\Sections\\ScannerParserProject\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "E:\\3rd Level\\2nd Semester\\Compilers Construction\\Sections\\ScannerParserProject\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAgwGkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T10:42:17.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "E:\\3rd Level\\2nd Semester\\Compilers Construction\\Sections\\ScannerParserProject\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Form1.Designer.cs",
+              "ToolTip": "E:\\3rd Level\\2nd Semester\\Compilers Construction\\Sections\\ScannerParserProject\\Form1.Designer.cs",
+              "RelativeToolTip": "Form1.Designer.cs",
+              "ViewState": "AgIAAJoAAAAAAAAAAAAgwLQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T10:42:13.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "E:\\3rd Level\\2nd Semester\\Compilers Construction\\Sections\\ScannerParserProject\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "E:\\3rd Level\\2nd Semester\\Compilers Construction\\Sections\\ScannerParserProject\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T10:39:33.736Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
