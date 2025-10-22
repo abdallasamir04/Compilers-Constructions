@@ -1,12 +1,12 @@
-![Scanner Banner](Scanner/banner.png)
+![Scanner and Parser Banner](Scanner/ScannerandParser.png)
 
-# ⚙️ Scanner
-![Version](https://img.shields.io/badge/version-2.0.0-blue.svg?style=for-the-badge&logo=github&logoColor=white)
+⚙️ Scanner and Parser: Compilers-Constructions Project
+![Version](https://img.shields.io/badge/version-3.0.0-red.svg?style=for-the-badge&logo=github&logoColor=white)
 ![C#](https://img.shields.io/badge/Language-C%23-0078d4.svg?style=for-the-badge&logo=csharp&logoColor=white)
 
-The **Scanner** project simulates the **lexical analysis stage** of a compiler. It reads source code (from file or manually), scans line by line, tokenizes the code into syntactic components, detects Arabic characters as lexical errors, and visually displays results in a colored console with line and column tracking.
+This project simulates the complete **Front-End** of a compiler, encompassing both the **Lexical Analysis (Scanner)** and **Syntax Analysis (Parser)** stages. It processes source code, first tokenizing it and then checking its structural correctness against a defined grammar, ultimately generating a **Parse Tree** representation.
 
-> 🧠 Developed by **Abdalla Samir** at **Assiut National University**, Faculty of Computers and Artificial Intelligence  
+> 🧠 Developed by **Abdalla Mahmoud Samir** at **Assiut National University**, Faculty of Computers and Artificial Intelligence
 > 📚 For the **Compilers Construction** course – 3rd Level
 
 ---
@@ -14,25 +14,59 @@ The **Scanner** project simulates the **lexical analysis stage** of a compiler. 
 ## 🚀 Features
 
 ### 🔍 Lexical Scanner
-- Multi-line code scanning (manual or from file).
-- Supports **reserved words**, **identifiers**, **numbers**, **strings**, **operators**, **symbols**, and **comments**.
+- Tokenizes source code (manual or from file) into syntactic components, supporting multi-line scanning.
+- Supports **reserved words** (`if`, `int`, `return`, `while`, `void`, `real`, `else`), **identifiers**, **numbers** (`Num`), **operators**, and **symbols**.
 - Tracks **line** and **column** positions for each token.
+- **Lexical Error Detection**: Flags Arabic or non-ASCII characters as `Error`.
 
-### ✅ Reserved Word Support
-- Recognizes built-in **keywords** like `if`, `int`, `return`, `while`, `void`, etc.
-- Flags reserved words with a distinct token type.
+### 🌳 Syntax Parser
+- Implements a **Recursive Descent Parser** to check the structural validity of the token stream against the grammar rules.
+- Detects and reports **Syntax Errors** (e.g., missing tokens, incorrect structure).
+- **Grammar Support**: The parser handles full program structure including declarations, statements, and expressions.
+    * **Declarations**: Supports variable (`var-declaration`) and function (`fun-declaration`) declarations.
+    * **Statements**: Recognizes expression, compound, selection (`if...else`), iteration (`while`), and return statements.
+    * **Expressions**: Handles assignment (`var = expression`), simple expressions, and function calls (`call`).
+- Generates a **Parse Tree** (or AST) to represent the structural hierarchy of the input program.
 
-### 🟥 Lexical Error Detection
-- Flags Arabic or non-ASCII characters as `Error`.
-- Ignores unterminated strings/chars as critical errors (only Arabic causes lexical failure).
-- Shows clean output: ✅ or ❌ with line/column positions.
+---
 
-### 🌈 Colored Console Output
-- Syntax-highlighted console using `Console.ForegroundColor`.
-- Different colors for identifiers, numbers, reserved words, errors, comments, and more.
+## 📐 Compiler Grammar Details
 
-### 💾 Save Token Output
-- Saves scanned tokens and token summary into `tokens_output.txt`.
+The parser is built around a simplified C-like grammar.
+
+### 💡 Regular Expressions (Scanner Specification)
+
+The scanner recognizes the following primary token patterns:
+* **Digit**: $0|1|2|3|4|5|6|7|8|9$
+* **Unsigned**: $Digit$ $Digit*$
+* **Integer**: $(- \mid \epsilon) Unsigned$
+* **Real**: $Integer (\mid \text{.} Integer)$
+* **Num** (Real or Integer): $Real \mid Integer$
+* **Letter**: $[A-Z, a-z]$
+* **ID**: $Letter (Letter \mid Digit)*$
+
+### 📝 Tokens (Terminals)
+
+| Category | Tokens | Source |
+| :--- | :--- | :--- |
+| **Reserved Words** | `void`, `real`, `int`, `return`, `if`, `else`, `while` | |
+| **Relational Ops** | $!=$, $=$, $<=$, $>=$, $<$, $>$ | |
+| **Arithmetic Ops** | `+`, `-`, `*`, `/` | |
+| **Special Symbols** | $($, $)$, $[$, $]$, $\{$, $\}$, `,`, $;$ | |
+| **Values** | `Num`, `ID` | |
+
+### 🌳 Grammar Rules (Parser Specification)
+
+Key production rules include:
+* **program** $\to$ declaration-list
+* **declaration** $\to$ var-declaration $\mid$ fun-declaration
+* **var-declaration** $\to$ type-specifier ID $\mid$ type-specifier ID [Num]
+* **type-specifier** $\to$ int $\mid$ real $\mid$ void
+* **statement** $\to$ expression-statement $\mid$ compound-statement $\mid$ selection-statement $\mid$ iteration-statement $\mid$ return-statement
+* **selection-statement** $\to$ if (expression) statement $\mid$ if (expression) statement else statement
+* **expression** $\to$ var $=$ expression $\mid$ simple-expression
+* **relOp** $\to$ $<= \mid >= \mid < \mid > \mid != \mid ==$
+* **factor** $\to$ (expression) $\mid$ var $\mid$ call $\mid$ Num
 
 ---
 
@@ -46,89 +80,32 @@ The **Scanner** project simulates the **lexical analysis stage** of a compiler. 
 # Open terminal in project directory
 dotnet build
 dotnet run
-```
 
----
+📂 Project Structure (Updated)
 
-## 💡 Example Inputs and Outputs
+File/Class	Role
+Program.cs	Main entry point, orchestrates Scanner and Parser
+Scanner.cs	Core lexical analysis and tokenizer
+Token.cs, TokenType.cs	Token structure and type enumeration
+Parser.cs	Core syntax analysis logic, implements Recursive Descent
+ASTNode.cs / ParseTree.cs	Structure for the generated Parse Tree/AST
+ReservedWordsManager.cs	Reserved word lookup
+TokenDisplayer.cs	Displays colored tokens, summaries, errors
+ResultSaver.cs	Saves tokens and parse tree to a file
 
-### Example 1:
-```tiny
-int x := 42;
-```
+📚 Future Extensions
 
-**Output:**
-```
-[1:1-3] ReservedWord: 'int'
-[1:5-5] Identifier: 'x'
-[1:7-8] Assign: ':='
-[1:10-11] Number: '42'
-[1:12-12] Semicolon: ';'
-```
+    [ ] Semantic validation (types, scopes, etc.)
 
-### Example 2 (with Arabic):
-```tiny
-متغير := 5;
-```
+    [ ] Code generation or intermediate representation (IR)
 
-**Output:**
-```
-[1:1-6] Error: 'متغير'
-[1:8-9] Assign: ':='
-[1:11-11] Number: '5'
-[1:12-12] Semicolon: ';'
+    [ ] GUI frontend or VS Code plugin
 
-❌ Lexical Errors Detected:
-[Line 1, Columns 1-6] Error: 'متغير'
-```
+🔗 Dependencies
 
----
+    Standard C# libraries only
 
-## 📂 Project Structure
-
-| File/Class               | Role                                      |
-|--------------------------|-------------------------------------------|
-| `Program.cs`             | Main entry point                          |
-| `ScannerController.cs`   | Controls input, scanning, saving          |
-| `Scanner.cs`             | Core scanning logic and tokenizer         |
-| `Token.cs`               | Token structure and formatting            |
-| `TokenType.cs`           | All token types enum                      |
-| `ReservedWordsManager.cs`| Reserved word lookup                      |
-| `UserInterface.cs`       | Input/output abstraction                  |
-| `TokenDisplayer.cs`      | Displays colored tokens, summaries, errors|
-| `ResultSaver.cs`         | Saves tokens and summaries to a file      |
-
----
-
-## 📌 Input Options
-
-- **File input:** Paste or type a `.txt` file path.
-- **Manual input:** Write code line-by-line, end with an empty line.
-
----
-
-## 📁 Output
-
-- All tokens are printed to the console.
-- Token summary by type is shown.
-- If enabled, saved to `tokens_output.txt`.
-
----
-
-## 📚 Future Extensions
-
-- [ ] Syntax analyzer integration  
-- [ ] Semantic validation (types, scopes, etc.)  
-- [ ] GUI frontend or VS Code plugin  
-- [ ] Language-specific mode (e.g., TINY, Python, etc.)
-
----
-
-## 🔗 Dependencies
-
-- Standard C# libraries only
-- Requires `.NET 6+` to run
-
+    Requires .NET 6+ to run
 ---
 
 ## 🙏 Acknowledgments
