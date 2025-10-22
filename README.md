@@ -1,4 +1,4 @@
-![Scanner Parser Banner](Full Project/ScannerandParser.png)
+![Compiler Banner](Full Project/ScannerandParser.png)
 
 # 🧩 Full Compiler Project — Scanner + Parser  
 
