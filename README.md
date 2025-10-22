@@ -1,8 +1,11 @@
 ![Compiler Banner](Scanner/ScannerandParser.png)
 
 # 🧩 Full Compiler Project — Scanner + Parser  
-![Version](https://img.shields.io/badge/version-3.0.0-green.svg?style=for-the-badge&logo=github&logoColor=white)  
-![C#](https://img.shields.io/badge/Language-C%23-0078d4.svg?style=for-the-badge&logo=csharp&logoColor=white)
+
+<p align="center">
+  <img src="https://img.shields.io/badge/version-3.0.0-8e44ad.svg?style=flat-square&logo=github&logoColor=white" alt="Version Badge" />
+  <img src="https://img.shields.io/badge/Language-C%23-9b59b6.svg?style=flat-square&logo=csharp&logoColor=white" alt="C# Badge" />
+</p>
 
 This project implements both the **Lexical Analysis (Scanner)** and **Syntax Analysis (Parser)** stages of a compiler.  
 It reads source code, generates tokens, validates syntax using a formal grammar, and displays results in structured, colored console output with optional parse tree visualization.
