@@ -10,7 +10,7 @@
 This project implements both the **Lexical Analysis (Scanner)** and **Syntax Analysis (Parser)** stages of a compiler.  
 It reads source code, generates tokens, validates syntax using a formal grammar, and displays results in structured, colored console output with optional parse tree visualization.
 
-> 🧠 Developed by **Abdalla Samir** – Faculty of Computers and Artificial Intelligence, Assiut National University  
+> 🧠 Developed by **Abdalla Samir** - **Ahmed Diaa** – **Mohammed Khaled** - Faculty of Computers and Artificial Intelligence, Assiut National University  
 > 📚 Course: **Compiler Construction – 3rd Level (2025)**  
 
 ---
